@@ -1,0 +1,80 @@
+.my-container { 
+    border: solid 3px red; background: blue} 
+html{
+    font-family: 'Roboto' sans-serif;
+}
+.cabecera{
+    background-color: black;
+}
+.cabecera .logo{
+    width: 100px;
+}
+.navlist {
+    color:white;
+    
+}
+.navlist .navlist-member{
+    display: inline-block;
+    margin: 30px;
+    font-size: 20px;
+}
+
+.chavaluca-block{
+    /*background-image: url(../images/premium_dancer.png);*/
+    height: 500px;
+    background-position: 30px;
+    background-color:  #529cf1;
+    color: white;
+
+}
+
+.h1{
+    font-size: 60px;
+    font-weight: bolder;
+   
+   
+}
+.button{
+    background-color: green;
+    border: 0;
+    padding: 15px 120px;
+    border-radius: 15px;
+
+}
+.button a{
+    text-decoration: none;
+ 
+}
+.h3{
+    font-size: 30px;
+    font-weight: bolder;
+    
+    
+}
+p{
+    font-size: 15px;
+   
+}
+.h2{
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+   /* 
+.section-two{
+    font-size: 20px;
+}*/
+.section-two-father{
+    display: block;
+}
+.section-two span{
+   font-weight:bolder;
+   font-size: 20px;
+   text-align: center;
+}
+article{
+    display: inline;
+}
+.div-inlineblock{
+    display: inline-block;
+}
