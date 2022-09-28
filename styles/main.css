@@ -9,8 +9,11 @@ html{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top:0;
     
 }
+
 .cabecera .logo{
     width: 100px;
     margin-left: 20px;
@@ -83,25 +86,71 @@ html{
 }
 
 .h2{
-    font-size: 30px;
+    font-size: 50px;
     font-weight: bolder;
+ 
 
 }
    /* 
 .section-two{
     font-size: 20px;
 }*/
+/* .grandpa-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
 .section-two-father{
-    display: block;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    
 }
-.section-two span{
+.super-article{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* .section-two span{
    font-weight:bolder;
    font-size: 20px;
    text-align: center;
+  
+} */
+.article{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: red;
+    gap: 20px;
 }
-article{
-    display: inline;
+.icon{
+    width: 100px; ;
 }
-.div-inlineblock{
+/* .div-inlineblock{
     display: inline-block;
+} */
+
+.div-inlineblock{
+    display: flex;
+    flex-direction: column;
 }
+/* .icon-conteiener{
+    display: flex;
+} */
+/* .p-conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: ;
+    
+}
+ */
+.h5{
+        font-weight:bolder;
+        font-size: 20px;
+        
+}
+
