@@ -1,5 +1,4 @@
-.my-container { 
-    border: solid 3px red; background: blue} 
+
 html{
     font-family: 'Roboto', sans-serif;
 }
@@ -33,9 +32,9 @@ html{
     margin: 30px;
     font-size: 20px;
 }
-/* .chavaluca_section{
-    width: 90%;
-} */
+.chavaluca_section{
+    height: 50vh;
+}
 
 .chavaluca-block{
     /*background-image: url(../images/premium_dancer.png);*/
@@ -154,3 +153,36 @@ html{
         
 }
 
+.footer { 
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: grey;
+    padding: 15px;
+    height: 85px;
+} 
+/* revisar gap? 
+tamaño tipo?
+del FOOTER
+ */
+.footer-left{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+}
+.li-blank{
+    width: 100%;
+}
+.info {
+    width:100%
+}
+.flag{
+    width: 30px;
+}
+.footer-right{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap:10px;
+    
+}
