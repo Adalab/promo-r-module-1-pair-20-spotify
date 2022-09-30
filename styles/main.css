@@ -32,14 +32,23 @@ html{
     margin: 30px;
     font-size: 20px;
 }
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+
+}
 .chavaluca_section{
-    height: 50vh;
+    /* height: 50vh; */
 }
 
 .chavaluca-block{
     /*background-image: url(../images/premium_dancer.png);*/
     height: 500px;
-    background-position: 30px;
+    /* background-position: 30px; */
+    height: 50vh;
     background-color:  #529cf1;
     color: white;
     display: flex;
@@ -86,7 +95,9 @@ html{
 
 .h2{
     font-size: 50px;
-    font-weight: bolder;
+    font-weight: bold;
+    /* background-color: blueviolet; */
+    text-align: center;
  
 
 }
@@ -100,7 +111,9 @@ html{
     justify-content: center;
 } */
 .section-two-father{
-  display: flex;
+    /* background-color:yellow; */
+    display: flex;
+   /*  align-self: flex-end; */
     flex-direction: column;
     align-items: center;
     justify-content: center;  
@@ -123,12 +136,17 @@ html{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: red;
+   /*  background-color: red; */
     gap: 20px;
 }
 .icon{
-    width: 100px; ;
+    width: 100%;
 }
+
+.icon-conteiener{
+    width: 60px;
+}
+
 /* .div-inlineblock{
     display: inline-block;
 } */
@@ -148,10 +166,11 @@ html{
 }
  */
 .h5{
-        font-weight:bolder;
+        font-weight: bold;
         font-size: 20px;
-        
 }
+
+/* AÑADIR CLASE A P DENTRO DE ARTICLE Y BAJAR PESO TIPOGRAFÍA */
 
 .footer { 
     display: flex;
@@ -186,3 +205,5 @@ del FOOTER
     gap:10px;
     
 }
+
+/* font-family: 'Roboto', sans-serif; */
